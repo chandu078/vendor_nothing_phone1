@@ -361,7 +361,6 @@ PRODUCT_COPY_FILES += \
     vendor/nothing/phone1/proprietary/vendor/etc/media_codecs_vendor_audio.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_vendor_audio.xml \
     vendor/nothing/phone1/proprietary/vendor/etc/media_codecs_yupik_v0.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_yupik_v0.xml \
     vendor/nothing/phone1/proprietary/vendor/etc/media_codecs_yupik_v1.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_yupik_v1.xml \
-    vendor/nothing/phone1/proprietary/vendor/etc/media_lahaina/video_system_specs.json:$(TARGET_COPY_OUT_VENDOR)/etc/media_lahaina/video_system_specs.json \
     vendor/nothing/phone1/proprietary/vendor/etc/media_profiles.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_profiles.xml \
     vendor/nothing/phone1/proprietary/vendor/etc/media_profiles_V1_0.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_profiles_V1_0.xml \
     vendor/nothing/phone1/proprietary/vendor/etc/media_profiles_vendor.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_profiles_vendor.xml \
@@ -608,6 +607,28 @@ PRODUCT_COPY_FILES += \
     vendor/nothing/phone1/proprietary/vendor/firmware/a660_zap.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/a660_zap.b02 \
     vendor/nothing/phone1/proprietary/vendor/firmware/a660_zap.elf:$(TARGET_COPY_OUT_VENDOR)/firmware/a660_zap.elf \
     vendor/nothing/phone1/proprietary/vendor/firmware/a660_zap.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/a660_zap.mdt \
+    vendor/nothing/phone1/proprietary/vendor/firmware/evass-lt.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/evass-lt.b00 \
+    vendor/nothing/phone1/proprietary/vendor/firmware/evass-lt.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/evass-lt.b01 \
+    vendor/nothing/phone1/proprietary/vendor/firmware/evass-lt.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/evass-lt.b02 \
+    vendor/nothing/phone1/proprietary/vendor/firmware/evass-lt.b03:$(TARGET_COPY_OUT_VENDOR)/firmware/evass-lt.b03 \
+    vendor/nothing/phone1/proprietary/vendor/firmware/evass-lt.b04:$(TARGET_COPY_OUT_VENDOR)/firmware/evass-lt.b04 \
+    vendor/nothing/phone1/proprietary/vendor/firmware/evass-lt.b05:$(TARGET_COPY_OUT_VENDOR)/firmware/evass-lt.b05 \
+    vendor/nothing/phone1/proprietary/vendor/firmware/evass-lt.b06:$(TARGET_COPY_OUT_VENDOR)/firmware/evass-lt.b06 \
+    vendor/nothing/phone1/proprietary/vendor/firmware/evass-lt.b07:$(TARGET_COPY_OUT_VENDOR)/firmware/evass-lt.b07 \
+    vendor/nothing/phone1/proprietary/vendor/firmware/evass-lt.b08:$(TARGET_COPY_OUT_VENDOR)/firmware/evass-lt.b08 \
+    vendor/nothing/phone1/proprietary/vendor/firmware/evass-lt.b09:$(TARGET_COPY_OUT_VENDOR)/firmware/evass-lt.b09 \
+    vendor/nothing/phone1/proprietary/vendor/firmware/evass-lt.b10:$(TARGET_COPY_OUT_VENDOR)/firmware/evass-lt.b10 \
+    vendor/nothing/phone1/proprietary/vendor/firmware/evass-lt.b11:$(TARGET_COPY_OUT_VENDOR)/firmware/evass-lt.b11 \
+    vendor/nothing/phone1/proprietary/vendor/firmware/evass-lt.b12:$(TARGET_COPY_OUT_VENDOR)/firmware/evass-lt.b12 \
+    vendor/nothing/phone1/proprietary/vendor/firmware/evass-lt.b13:$(TARGET_COPY_OUT_VENDOR)/firmware/evass-lt.b13 \
+    vendor/nothing/phone1/proprietary/vendor/firmware/evass-lt.b14:$(TARGET_COPY_OUT_VENDOR)/firmware/evass-lt.b14 \
+    vendor/nothing/phone1/proprietary/vendor/firmware/evass-lt.b15:$(TARGET_COPY_OUT_VENDOR)/firmware/evass-lt.b15 \
+    vendor/nothing/phone1/proprietary/vendor/firmware/evass-lt.b16:$(TARGET_COPY_OUT_VENDOR)/firmware/evass-lt.b16 \
+    vendor/nothing/phone1/proprietary/vendor/firmware/evass-lt.b17:$(TARGET_COPY_OUT_VENDOR)/firmware/evass-lt.b17 \
+    vendor/nothing/phone1/proprietary/vendor/firmware/evass-lt.b18:$(TARGET_COPY_OUT_VENDOR)/firmware/evass-lt.b18 \
+    vendor/nothing/phone1/proprietary/vendor/firmware/evass-lt.b19:$(TARGET_COPY_OUT_VENDOR)/firmware/evass-lt.b19 \
+    vendor/nothing/phone1/proprietary/vendor/firmware/evass-lt.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/evass-lt.mbn \
+    vendor/nothing/phone1/proprietary/vendor/firmware/evass-lt.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/evass-lt.mdt \
     vendor/nothing/phone1/proprietary/vendor/firmware/evass.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/evass.b00 \
     vendor/nothing/phone1/proprietary/vendor/firmware/evass.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/evass.b01 \
     vendor/nothing/phone1/proprietary/vendor/firmware/evass.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/evass.b02 \
@@ -647,6 +668,50 @@ PRODUCT_COPY_FILES += \
     vendor/nothing/phone1/proprietary/vendor/firmware/ipa_fws.elf:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa_fws.elf \
     vendor/nothing/phone1/proprietary/vendor/firmware/ipa_fws.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa_fws.mdt \
     vendor/nothing/phone1/proprietary/vendor/firmware/tfa98xx.cnt:$(TARGET_COPY_OUT_VENDOR)/firmware/tfa98xx.cnt \
+    vendor/nothing/phone1/proprietary/vendor/firmware/vpu20_1v.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_1v.b01 \
+    vendor/nothing/phone1/proprietary/vendor/firmware/vpu20_1v.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_1v.b02 \
+    vendor/nothing/phone1/proprietary/vendor/firmware/vpu20_1v.b03:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_1v.b03 \
+    vendor/nothing/phone1/proprietary/vendor/firmware/vpu20_1v.b04:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_1v.b04 \
+    vendor/nothing/phone1/proprietary/vendor/firmware/vpu20_1v.b05:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_1v.b05 \
+    vendor/nothing/phone1/proprietary/vendor/firmware/vpu20_1v.b06:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_1v.b06 \
+    vendor/nothing/phone1/proprietary/vendor/firmware/vpu20_1v.b07:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_1v.b07 \
+    vendor/nothing/phone1/proprietary/vendor/firmware/vpu20_1v.b08:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_1v.b08 \
+    vendor/nothing/phone1/proprietary/vendor/firmware/vpu20_1v.b09:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_1v.b09 \
+    vendor/nothing/phone1/proprietary/vendor/firmware/vpu20_1v.b10:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_1v.b10 \
+    vendor/nothing/phone1/proprietary/vendor/firmware/vpu20_1v.b11:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_1v.b11 \
+    vendor/nothing/phone1/proprietary/vendor/firmware/vpu20_1v.b12:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_1v.b12 \
+    vendor/nothing/phone1/proprietary/vendor/firmware/vpu20_1v.b13:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_1v.b13 \
+    vendor/nothing/phone1/proprietary/vendor/firmware/vpu20_1v.b14:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_1v.b14 \
+    vendor/nothing/phone1/proprietary/vendor/firmware/vpu20_1v.b15:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_1v.b15 \
+    vendor/nothing/phone1/proprietary/vendor/firmware/vpu20_1v.b16:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_1v.b16 \
+    vendor/nothing/phone1/proprietary/vendor/firmware/vpu20_1v.b17:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_1v.b17 \
+    vendor/nothing/phone1/proprietary/vendor/firmware/vpu20_1v.b18:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_1v.b18 \
+    vendor/nothing/phone1/proprietary/vendor/firmware/vpu20_1v.b19:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_1v.b19 \
+    vendor/nothing/phone1/proprietary/vendor/firmware/vpu20_1v.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_1v.mbn \
+    vendor/nothing/phone1/proprietary/vendor/firmware/vpu20_1v.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_1v.mdt \
+    vendor/nothing/phone1/proprietary/vendor/firmware/vpu20_1v_unsigned.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_1v_unsigned.mbn \
+    vendor/nothing/phone1/proprietary/vendor/firmware/vpu20_2v.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_2v.b01 \
+    vendor/nothing/phone1/proprietary/vendor/firmware/vpu20_2v.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_2v.b02 \
+    vendor/nothing/phone1/proprietary/vendor/firmware/vpu20_2v.b03:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_2v.b03 \
+    vendor/nothing/phone1/proprietary/vendor/firmware/vpu20_2v.b04:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_2v.b04 \
+    vendor/nothing/phone1/proprietary/vendor/firmware/vpu20_2v.b05:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_2v.b05 \
+    vendor/nothing/phone1/proprietary/vendor/firmware/vpu20_2v.b06:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_2v.b06 \
+    vendor/nothing/phone1/proprietary/vendor/firmware/vpu20_2v.b07:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_2v.b07 \
+    vendor/nothing/phone1/proprietary/vendor/firmware/vpu20_2v.b08:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_2v.b08 \
+    vendor/nothing/phone1/proprietary/vendor/firmware/vpu20_2v.b09:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_2v.b09 \
+    vendor/nothing/phone1/proprietary/vendor/firmware/vpu20_2v.b10:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_2v.b10 \
+    vendor/nothing/phone1/proprietary/vendor/firmware/vpu20_2v.b11:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_2v.b11 \
+    vendor/nothing/phone1/proprietary/vendor/firmware/vpu20_2v.b12:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_2v.b12 \
+    vendor/nothing/phone1/proprietary/vendor/firmware/vpu20_2v.b13:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_2v.b13 \
+    vendor/nothing/phone1/proprietary/vendor/firmware/vpu20_2v.b14:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_2v.b14 \
+    vendor/nothing/phone1/proprietary/vendor/firmware/vpu20_2v.b15:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_2v.b15 \
+    vendor/nothing/phone1/proprietary/vendor/firmware/vpu20_2v.b16:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_2v.b16 \
+    vendor/nothing/phone1/proprietary/vendor/firmware/vpu20_2v.b17:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_2v.b17 \
+    vendor/nothing/phone1/proprietary/vendor/firmware/vpu20_2v.b18:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_2v.b18 \
+    vendor/nothing/phone1/proprietary/vendor/firmware/vpu20_2v.b19:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_2v.b19 \
+    vendor/nothing/phone1/proprietary/vendor/firmware/vpu20_2v.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_2v.mbn \
+    vendor/nothing/phone1/proprietary/vendor/firmware/vpu20_2v.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_2v.mdt \
+    vendor/nothing/phone1/proprietary/vendor/firmware/vpu20_2v_unsigned.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_2v_unsigned.mbn \
     vendor/nothing/phone1/proprietary/vendor/firmware/vpu20_4v.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_4v.b01 \
     vendor/nothing/phone1/proprietary/vendor/firmware/vpu20_4v.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_4v.b02 \
     vendor/nothing/phone1/proprietary/vendor/firmware/vpu20_4v.b03:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_4v.b03 \
